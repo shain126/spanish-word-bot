@@ -1,13 +1,14 @@
-import tweepy
 import os
+import tweepy
 
 def post_tweet(text: str):
-    client = tweepy.Client(
-        consumer_key=os.getenv("X_API_KEY"),
-        consumer_secret=os.getenv("X_API_SECRET"),
-        access_token=os.getenv("X_ACCESS_TOKEN"),
-        access_token_secret=os.getenv("X_ACCESS_SECRET")
+    auth = tweepy.OAuth1UserHandler(
+        os.getenv("X_API_KEY"),
+        os.getenv("X_API_SECRET"),
+        os.getenv("X_ACCESS_TOKEN"),
+        os.getenv("X_ACCESS_SECRET"),
     )
 
-    response = client.create_tweet(text=text)
-    print("Tweet posted with ID:", response.data["id"])
+    api = tweepy.API(auth)
+    api.update_status(text)
+    print("Tweet posted successfully")
