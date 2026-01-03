@@ -1,0 +1,982 @@
+[
+  {
+    "word": "Hola",
+    "meaning": "Hello",
+    "example_es": "Hola, ¿cómo estás?",
+    "example_en": "Hello, how are you?",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Gracias",
+    "meaning": "Thank you",
+    "example_es": "Gracias por tu ayuda.",
+    "example_en": "Thank you for your help.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Adiós",
+    "meaning": "Goodbye",
+    "example_es": "Adiós, nos vemos mañana.",
+    "example_en": "Goodbye, see you tomorrow.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Por favor",
+    "meaning": "Please",
+    "example_es": "Por favor, espera aquí.",
+    "example_en": "Please, wait here.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Perdón",
+    "meaning": "Sorry / Excuse me",
+    "example_es": "Perdón por el error.",
+    "example_en": "Sorry for the mistake.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Sí",
+    "meaning": "Yes",
+    "example_es": "Sí, estoy de acuerdo.",
+    "example_en": "Yes, I agree.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "No",
+    "meaning": "No",
+    "example_es": "No quiero ir hoy.",
+    "example_en": "I don't want to go today.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Vale",
+    "meaning": "Okay",
+    "example_es": "Vale, hablamos luego.",
+    "example_en": "Okay, we'll talk later.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Bien",
+    "meaning": "Well / Fine",
+    "example_es": "Estoy bien, gracias.",
+    "example_en": "I am fine, thank you.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Mal",
+    "meaning": "Bad",
+    "example_es": "Hoy me siento mal.",
+    "example_en": "Today I feel bad.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Ser",
+    "meaning": "To be (essential)",
+    "example_es": "Ella es muy amable.",
+    "example_en": "She is very kind.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Estar",
+    "meaning": "To be (temporary)",
+    "example_es": "Estoy cansado hoy.",
+    "example_en": "I am tired today.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Tener",
+    "meaning": "To have",
+    "example_es": "Tengo tiempo ahora.",
+    "example_en": "I have time now.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Hacer",
+    "meaning": "To do / To make",
+    "example_es": "Tengo que hacer trabajo.",
+    "example_en": "I have to do work.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Ir",
+    "meaning": "To go",
+    "example_es": "Voy a casa.",
+    "example_en": "I am going home.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Amigo",
+    "meaning": "Friend",
+    "example_es": "Mi amigo vive aquí.",
+    "example_en": "My friend lives here.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Familia",
+    "meaning": "Family",
+    "example_es": "Mi familia es grande.",
+    "example_en": "My family is big.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Casa",
+    "meaning": "House / Home",
+    "example_es": "Mi casa es pequeña.",
+    "example_en": "My house is small.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Trabajo",
+    "meaning": "Work / Job",
+    "example_es": "Tengo mucho trabajo.",
+    "example_en": "I have a lot of work.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Tiempo",
+    "meaning": "Time",
+    "example_es": "No tengo tiempo.",
+    "example_en": "I don't have time.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Hoy",
+    "meaning": "Today",
+    "example_es": "Hoy es un buen día.",
+    "example_en": "Today is a good day.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Mañana",
+    "meaning": "Tomorrow / Morning",
+    "example_es": "Mañana voy a viajar.",
+    "example_en": "Tomorrow I will travel.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Ayer",
+    "meaning": "Yesterday",
+    "example_es": "Ayer trabajé mucho.",
+    "example_en": "Yesterday I worked a lot.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Siempre",
+    "meaning": "Always",
+    "example_es": "Siempre digo la verdad.",
+    "example_en": "I always tell the truth.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Nunca",
+    "meaning": "Never",
+    "example_es": "Nunca me rindo.",
+    "example_en": "I never give up.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Ojalá",
+    "meaning": "I hope / If only",
+    "example_es": "Ojalá llueva hoy.",
+    "example_en": "I hope it rains today.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Claro",
+    "meaning": "Of course / Clear",
+    "example_es": "Claro que sí.",
+    "example_en": "Of course.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Quizás",
+    "meaning": "Maybe",
+    "example_es": "Quizás llegue tarde.",
+    "example_en": "Maybe I will arrive late.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Ahora",
+    "meaning": "Now",
+    "example_es": "Ahora entiendo.",
+    "example_en": "Now I understand.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Luego",
+    "meaning": "Later",
+    "example_es": "Hablamos luego.",
+    "example_en": "We will talk later.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Comer",
+    "meaning": "To eat",
+    "example_es": "Me gusta comer frutas.",
+    "example_en": "I like to eat fruits.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Beber",
+    "meaning": "To drink",
+    "example_es": "Voy a beber agua.",
+    "example_en": "I am going to drink water.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Vivir",
+    "meaning": "To live",
+    "example_es": "Vivo en una ciudad grande.",
+    "example_en": "I live in a big city.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Trabajar",
+    "meaning": "To work",
+    "example_es": "Trabajo de lunes a viernes.",
+    "example_en": "I work from Monday to Friday.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Estudiar",
+    "meaning": "To study",
+    "example_es": "Estudio español todos los días.",
+    "example_en": "I study Spanish every day.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Hablar",
+    "meaning": "To speak",
+    "example_es": "Hablo con mi amigo.",
+    "example_en": "I speak with my friend.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Escuchar",
+    "meaning": "To listen",
+    "example_es": "Escucho música en casa.",
+    "example_en": "I listen to music at home.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Ver",
+    "meaning": "To see",
+    "example_es": "Veo una película.",
+    "example_en": "I watch a movie.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Leer",
+    "meaning": "To read",
+    "example_es": "Leo un libro interesante.",
+    "example_en": "I read an interesting book.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Escribir",
+    "meaning": "To write",
+    "example_es": "Escribo un mensaje.",
+    "example_en": "I write a message.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Comprar",
+    "meaning": "To buy",
+    "example_es": "Voy a comprar pan.",
+    "example_en": "I am going to buy bread.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Vender",
+    "meaning": "To sell",
+    "example_es": "Ella vende ropa.",
+    "example_en": "She sells clothes.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Pagar",
+    "meaning": "To pay",
+    "example_es": "Tengo que pagar hoy.",
+    "example_en": "I have to pay today.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Abrir",
+    "meaning": "To open",
+    "example_es": "Abro la puerta.",
+    "example_en": "I open the door.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Cerrar",
+    "meaning": "To close",
+    "example_es": "Cierro la ventana.",
+    "example_en": "I close the window.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Grande",
+    "meaning": "Big",
+    "example_es": "La casa es grande.",
+    "example_en": "The house is big.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Pequeño",
+    "meaning": "Small",
+    "example_es": "El perro es pequeño.",
+    "example_en": "The dog is small.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Nuevo",
+    "meaning": "New",
+    "example_es": "Tengo un teléfono nuevo.",
+    "example_en": "I have a new phone.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Viejo",
+    "meaning": "Old",
+    "example_es": "Ese edificio es viejo.",
+    "example_en": "That building is old.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Bueno",
+    "meaning": "Good",
+    "example_es": "Es una buena idea.",
+    "example_en": "It is a good idea.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Malo",
+    "meaning": "Bad",
+    "example_es": "No es malo.",
+    "example_en": "It is not bad.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Fácil",
+    "meaning": "Easy",
+    "example_es": "El examen es fácil.",
+    "example_en": "The exam is easy.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Difícil",
+    "meaning": "Difficult",
+    "example_es": "Este problema es difícil.",
+    "example_en": "This problem is difficult.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Rápido",
+    "meaning": "Fast",
+    "example_es": "El coche es rápido.",
+    "example_en": "The car is fast.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Lento",
+    "meaning": "Slow",
+    "example_es": "Camina lento.",
+    "example_en": "He walks slowly.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Feliz",
+    "meaning": "Happy",
+    "example_es": "Estoy muy feliz hoy.",
+    "example_en": "I am very happy today.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Triste",
+    "meaning": "Sad",
+    "example_es": "Ella está triste.",
+    "example_en": "She is sad.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Cansado",
+    "meaning": "Tired",
+    "example_es": "Estoy cansado ahora.",
+    "example_en": "I am tired now.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Contento",
+    "meaning": "Glad / Happy",
+    "example_es": "Estoy contento contigo.",
+    "example_en": "I am happy with you.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Enojado",
+    "meaning": "Angry",
+    "example_es": "Está enojado hoy.",
+    "example_en": "He is angry today.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Caminar",
+    "meaning": "To walk",
+    "example_es": "Me gusta caminar por el parque.",
+    "example_en": "I like to walk through the park.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Correr",
+    "meaning": "To run",
+    "example_es": "Corro todas las mañanas.",
+    "example_en": "I run every morning.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Llegar",
+    "meaning": "To arrive",
+    "example_es": "Llego a casa tarde.",
+    "example_en": "I arrive home late.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Salir",
+    "meaning": "To leave / go out",
+    "example_es": "Salimos a cenar hoy.",
+    "example_en": "We are going out to dinner today.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Entrar",
+    "meaning": "To enter",
+    "example_es": "Entro al edificio.",
+    "example_en": "I enter the building.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Buscar",
+    "meaning": "To search",
+    "example_es": "Busco mi teléfono.",
+    "example_en": "I am looking for my phone.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Encontrar",
+    "meaning": "To find",
+    "example_es": "Encuentro la solución.",
+    "example_en": "I find the solution.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Usar",
+    "meaning": "To use",
+    "example_es": "Uso esta aplicación.",
+    "example_en": "I use this app.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Cambiar",
+    "meaning": "To change",
+    "example_es": "Quiero cambiar de trabajo.",
+    "example_en": "I want to change jobs.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Empezar",
+    "meaning": "To start",
+    "example_es": "Empiezo hoy.",
+    "example_en": "I start today.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Terminar",
+    "meaning": "To finish",
+    "example_es": "Termino el trabajo.",
+    "example_en": "I finish the work.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Ayudar",
+    "meaning": "To help",
+    "example_es": "Ayudo a mi familia.",
+    "example_en": "I help my family.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Necesitar",
+    "meaning": "To need",
+    "example_es": "Necesito descanso.",
+    "example_en": "I need rest.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Intentar",
+    "meaning": "To try",
+    "example_es": "Intento aprender español.",
+    "example_en": "I try to learn Spanish.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Recordar",
+    "meaning": "To remember",
+    "example_es": "Recuerdo tu nombre.",
+    "example_en": "I remember your name.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Olvidar",
+    "meaning": "To forget",
+    "example_es": "Olvido las llaves.",
+    "example_en": "I forget the keys.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Pensar",
+    "meaning": "To think",
+    "example_es": "Pienso en el futuro.",
+    "example_en": "I think about the future.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Creer",
+    "meaning": "To believe",
+    "example_es": "Creo en ti.",
+    "example_en": "I believe in you.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Sentir",
+    "meaning": "To feel",
+    "example_es": "Siento alegría hoy.",
+    "example_en": "I feel joy today.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Esperar",
+    "meaning": "To wait / hope",
+    "example_es": "Espero el autobús.",
+    "example_en": "I wait for the bus.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Preguntar",
+    "meaning": "To ask",
+    "example_es": "Pregunto una duda.",
+    "example_en": "I ask a question.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Responder",
+    "meaning": "To answer",
+    "example_es": "Respondo rápido.",
+    "example_en": "I answer quickly.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Explicar",
+    "meaning": "To explain",
+    "example_es": "Explico la idea.",
+    "example_en": "I explain the idea.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Aprender",
+    "meaning": "To learn",
+    "example_es": "Aprendo algo nuevo.",
+    "example_en": "I learn something new.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Enseñar",
+    "meaning": "To teach",
+    "example_es": "Enseño español.",
+    "example_en": "I teach Spanish.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Decidir",
+    "meaning": "To decide",
+    "example_es": "Decido hoy.",
+    "example_en": "I decide today.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Elegir",
+    "meaning": "To choose",
+    "example_es": "Elijo este camino.",
+    "example_en": "I choose this path.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Aceptar",
+    "meaning": "To accept",
+    "example_es": "Acepto la oferta.",
+    "example_en": "I accept the offer.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Rechazar",
+    "meaning": "To reject",
+    "example_es": "Rechazo la idea.",
+    "example_en": "I reject the idea.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Cambiar",
+    "meaning": "To change",
+    "example_es": "Todo puede cambiar.",
+    "example_en": "Everything can change.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Viajar",
+    "meaning": "To travel",
+    "example_es": "Me gusta viajar mucho.",
+    "example_en": "I like to travel a lot.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Descansar",
+    "meaning": "To rest",
+    "example_es": "Necesito descansar hoy.",
+    "example_en": "I need to rest today.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Disfrutar",
+    "meaning": "To enjoy",
+    "example_es": "Disfruto la música.",
+    "example_en": "I enjoy the music.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Soñar",
+    "meaning": "To dream",
+    "example_es": "Sueño con viajar.",
+    "example_en": "I dream of traveling.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Lograr",
+    "meaning": "To achieve",
+    "example_es": "Logro mis metas.",
+    "example_en": "I achieve my goals.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Crecer",
+    "meaning": "To grow",
+    "example_es": "Quiero crecer más.",
+    "example_en": "I want to grow more.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Mejorar",
+    "meaning": "To improve",
+    "example_es": "Intento mejorar cada día.",
+    "example_en": "I try to improve every day.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Avanzar",
+    "meaning": "To move forward",
+    "example_es": "Avanzo poco a poco.",
+    "example_en": "I move forward little by little.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Compartir",
+    "meaning": "To share",
+    "example_es": "Comparto mi tiempo.",
+    "example_en": "I share my time.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Apoyar",
+    "meaning": "To support",
+    "example_es": "Apoyo a mi amigo.",
+    "example_en": "I support my friend.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Cuidar",
+    "meaning": "To take care of",
+    "example_es": "Cuido mi salud.",
+    "example_en": "I take care of my health.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Confiar",
+    "meaning": "To trust",
+    "example_es": "Confío en ti.",
+    "example_en": "I trust you.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Dudar",
+    "meaning": "To doubt",
+    "example_es": "A veces dudo.",
+    "example_en": "Sometimes I doubt.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Aceptar",
+    "meaning": "To accept",
+    "example_es": "Acepto el cambio.",
+    "example_en": "I accept the change.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Superar",
+    "meaning": "To overcome",
+    "example_es": "Supero los retos.",
+    "example_en": "I overcome challenges.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Paz",
+    "meaning": "Peace",
+    "example_es": "Busco paz interior.",
+    "example_en": "I seek inner peace.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Calma",
+    "meaning": "Calm",
+    "example_es": "Necesito calma.",
+    "example_en": "I need calm.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Fuerza",
+    "meaning": "Strength",
+    "example_es": "Tengo fuerza interior.",
+    "example_en": "I have inner strength.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Valor",
+    "meaning": "Courage / Value",
+    "example_es": "Tengo valor para intentar.",
+    "example_en": "I have courage to try.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Paciencia",
+    "meaning": "Patience",
+    "example_es": "La paciencia es importante.",
+    "example_en": "Patience is important.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Libertad",
+    "meaning": "Freedom",
+    "example_es": "Busco libertad.",
+    "example_en": "I seek freedom.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Éxito",
+    "meaning": "Success",
+    "example_es": "El éxito llega con esfuerzo.",
+    "example_en": "Success comes with effort.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Meta",
+    "meaning": "Goal",
+    "example_es": "Tengo una meta clara.",
+    "example_en": "I have a clear goal.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Camino",
+    "meaning": "Path / Road",
+    "example_es": "Sigo mi camino.",
+    "example_en": "I follow my path.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Cambio",
+    "meaning": "Change",
+    "example_es": "El cambio es necesario.",
+    "example_en": "Change is necessary.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Motivar",
+    "meaning": "To motivate",
+    "example_es": "Quiero motivar a otros.",
+    "example_en": "I want to motivate others.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Inspirar",
+    "meaning": "To inspire",
+    "example_es": "Me inspira tu historia.",
+    "example_en": "Your story inspires me.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Intento",
+    "meaning": "Attempt / Try",
+    "example_es": "Cada intento cuenta.",
+    "example_en": "Every attempt counts.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Esfuerzo",
+    "meaning": "Effort",
+    "example_es": "El esfuerzo vale la pena.",
+    "example_en": "The effort is worth it.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Resultado",
+    "meaning": "Result",
+    "example_es": "Espero un buen resultado.",
+    "example_en": "I expect a good result.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Decisión",
+    "meaning": "Decision",
+    "example_es": "Es una decisión difícil.",
+    "example_en": "It is a difficult decision.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Oportunidad",
+    "meaning": "Opportunity",
+    "example_es": "Es una gran oportunidad.",
+    "example_en": "It is a great opportunity.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Experiencia",
+    "meaning": "Experience",
+    "example_es": "Fue una buena experiencia.",
+    "example_en": "It was a good experience.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Lección",
+    "meaning": "Lesson",
+    "example_es": "Aprendo una lección.",
+    "example_en": "I learn a lesson.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Recuerdo",
+    "meaning": "Memory",
+    "example_es": "Es un bonito recuerdo.",
+    "example_en": "It is a beautiful memory.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Confianza",
+    "meaning": "Trust / Confidence",
+    "example_es": "La confianza es clave.",
+    "example_en": "Trust is key.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Respeto",
+    "meaning": "Respect",
+    "example_es": "El respeto es importante.",
+    "example_en": "Respect is important.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Responsabilidad",
+    "meaning": "Responsibility",
+    "example_es": "Es mi responsabilidad.",
+    "example_en": "It is my responsibility.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Honestidad",
+    "meaning": "Honesty",
+    "example_es": "Valoro la honestidad.",
+    "example_en": "I value honesty.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Disciplina",
+    "meaning": "Discipline",
+    "example_es": "La disciplina ayuda.",
+    "example_en": "Discipline helps.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Constancia",
+    "meaning": "Consistency",
+    "example_es": "La constancia trae resultados.",
+    "example_en": "Consistency brings results.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Progreso",
+    "meaning": "Progress",
+    "example_es": "Veo progreso diario.",
+    "example_en": "I see daily progress.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Equilibrio",
+    "meaning": "Balance",
+    "example_es": "Busco equilibrio.",
+    "example_en": "I seek balance.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Prioridad",
+    "meaning": "Priority",
+    "example_es": "Mi salud es prioridad.",
+    "example_en": "My health is a priority.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Objetivo",
+    "meaning": "Objective / Goal",
+    "example_es": "Cumplo mi objetivo.",
+    "example_en": "I achieve my goal.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Silencio",
+    "meaning": "Silence",
+    "example_es": "El silencio ayuda a pensar.",
+    "example_en": "Silence helps to think.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Atención",
+    "meaning": "Attention",
+    "example_es": "Presta atención.",
+    "example_en": "Pay attention.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Energía",
+    "meaning": "Energy",
+    "example_es": "Tengo mucha energía.",
+    "example_en": "I have a lot of energy.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Enfoque",
+    "meaning": "Focus",
+    "example_es": "Necesito enfoque.",
+    "example_en": "I need focus.",
+    "hashtags": "#Spanish #LearnSpanish"
+  },
+  {
+    "word": "Actitud",
+    "meaning": "Attitude",
+    "example_es": "Buena actitud siempre.",
+    "example_en": "Good attitude always.",
+    "hashtags": "#Spanish #LearnSpanish"
+  }
+]
