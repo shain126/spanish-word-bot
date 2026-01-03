@@ -1,5 +1,6 @@
 from twitter_client import post_tweet
 from openai_client import generate_spanish_word_post
+from local_word_provider import get_next_unused_word, format_post
 import re
 
 USED_WORDS_FILE = "used_words.txt"
@@ -16,23 +17,25 @@ def save_used_word(word):
         f.write(word.lower() + "\n")
 
 def extract_word(post_text):
-    match = re.search(r"Word of the Day:\s*(\w+)", post_text)
-    return match.group(1) if match else None
+    match = re.search(r"Word of the Day:\s*(.+)", post_text)
+    return match.group(1).strip() if match else None
 
 def main():
     used_words = load_used_words()
 
-    post = generate_spanish_word_post(used_words)
-    word = extract_word(post)
-
-    if not word:
-        raise RuntimeError("Could not extract word from OpenAI output")
-
-    if word.lower() in used_words:
-        raise RuntimeError("Duplicate word generated — aborting")
+    try:
+        post = generate_spanish_word_post(used_words)
+        word = extract_word(post)
+        source = "OpenAI"
+    except Exception:
+        entry = get_next_unused_word(used_words)
+        post = format_post(entry)
+        word = entry["word"]
+        source = "Local DB"
 
     post_tweet(post)
     save_used_word(word)
+    print(f"Posted '{word}' via {source}")
 
 if __name__ == "__main__":
     main()
