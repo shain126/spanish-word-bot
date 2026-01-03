@@ -30,6 +30,7 @@ jobs:
             ${{ runner.os }}-pip-
 
       - name: Install dependencies
+        working-directory: ${{ github.workspace }}
         run: pip install -r $GITHUB_WORKSPACE/requirements.txt
 
       - name: Run bot
