@@ -2,7 +2,11 @@ name: SpanishHoy Bot
 
 on:
   schedule:
-    - cron: "0 9 * * *"   # adjust time as needed
+    # 4 runs per day (~5 hours apart) — UTC times
+    - cron: "0 3 * * *"    # 03:00 UTC
+    - cron: "0 8 * * *"    # 08:00 UTC
+    - cron: "0 13 * * *"   # 13:00 UTC
+    - cron: "0 18 * * *"   # 18:00 UTC
   workflow_dispatch:
 
 jobs:
@@ -12,6 +16,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -32,3 +38,12 @@ jobs:
           X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python bot.py
+
+      # Persist used words so they are never repeated
+      - name: Commit used words
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add used_words.txt
+          git commit -m "Add used Spanish word" || echo "No changes to commit"
+          git push
