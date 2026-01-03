@@ -1,35 +1,32 @@
-name: Daily Spanish Word Bot
+name: DEBUG WORKSPACE
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 9 * * *"
 
 jobs:
-  post:
+  debug:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Show workspace (debug)
+      - name: Print working directory
         run: |
-          echo "GITHUB_WORKSPACE=$GITHUB_WORKSPACE"
+          echo "PWD:"
+          pwd
+
+      - name: Print GITHUB_WORKSPACE
+        run: |
+          echo "GITHUB_WORKSPACE:"
+          echo $GITHUB_WORKSPACE
+
+      - name: List workspace root
+        run: |
+          echo "==== ls $GITHUB_WORKSPACE ===="
           ls -la $GITHUB_WORKSPACE
 
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.10"
-
-      - name: Install dependencies
-        run: pip install -r $GITHUB_WORKSPACE/requirements.txt
-
-      - name: Run bot
-        run: python $GITHUB_WORKSPACE/bot.py
-        env:
-          X_API_KEY: ${{ secrets.X_API_KEY }}
-          X_API_SECRET: ${{ secrets.X_API_SECRET }}
-          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
-          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+      - name: Recursive search for requirements.txt
+        run: |
+          echo "==== find requirements.txt ===="
+          find /home/runner/work -name requirements.txt
