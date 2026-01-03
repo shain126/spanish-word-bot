@@ -1,32 +1,43 @@
-name: DEBUG WORKSPACE
+name: Daily Spanish Word Bot
 
 on:
+  schedule:
+    - cron: "0 9 * * *"   # 9 AM UTC
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
-  debug:
+  post:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Print working directory
-        run: |
-          echo "PWD:"
-          pwd
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
 
-      - name: Print GITHUB_WORKSPACE
-        run: |
-          echo "GITHUB_WORKSPACE:"
-          echo $GITHUB_WORKSPACE
+      - name: Cache pip
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
 
-      - name: List workspace root
-        run: |
-          echo "==== ls $GITHUB_WORKSPACE ===="
-          ls -la $GITHUB_WORKSPACE
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
-      - name: Recursive search for requirements.txt
-        run: |
-          echo "==== find requirements.txt ===="
-          find /home/runner/work -name requirements.txt
+      - name: Run bot
+        working-directory: ${{ github.workspace }}
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python bot.py
