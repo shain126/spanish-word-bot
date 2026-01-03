@@ -26,9 +26,9 @@ jobs:
 
       - name: Run bot
         env:
-          SPANISHHOY_X_API_KEY: ${{ secrets.SPANISHHOY_X_API_KEY }}
-          SPANISHHOY_X_API_SECRET: ${{ secrets.SPANISHHOY_X_API_SECRET }}
-          SPANISHHOY_X_ACCESS_TOKEN: ${{ secrets.SPANISHHOY_X_ACCESS_TOKEN }}
-          SPANISHHOY_X_ACCESS_SECRET: ${{ secrets.SPANISHHOY_X_ACCESS_SECRET }}
+          SPANISHHOY_X_API_KEY: ${{ secrets.X_API_KEY }}
+          SPANISHHOY_X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          SPANISHHOY_X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          SPANISHHOY_X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python bot.py
