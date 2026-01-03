@@ -1,8 +1,13 @@
 import json
+import os
 
-WORDS_FILE = "words.json"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+WORDS_FILE = os.path.join(BASE_DIR, "words.json")
 
 def load_words():
+    if not os.path.exists(WORDS_FILE):
+        raise FileNotFoundError(f"words.json not found at {WORDS_FILE}")
+
     with open(WORDS_FILE, "r", encoding="utf-8") as f:
         return json.load(f)
 
