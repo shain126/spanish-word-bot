@@ -5,3 +5,4 @@ perdón
 sí
 no
 vale
+bien
