@@ -6,3 +6,4 @@ sí
 no
 vale
 bien
+mal
