@@ -9,3 +9,4 @@ bien
 mal
 ser
 estar
+tener
