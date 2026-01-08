@@ -12,3 +12,4 @@ estar
 tener
 hacer
 ir
+amigo
