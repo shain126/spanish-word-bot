@@ -10,3 +10,4 @@ mal
 ser
 estar
 tener
+hacer
