@@ -11,3 +11,4 @@ ser
 estar
 tener
 hacer
+ir
