@@ -13,3 +13,4 @@ tener
 hacer
 ir
 amigo
+familia
