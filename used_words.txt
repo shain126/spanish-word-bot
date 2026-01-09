@@ -16,3 +16,4 @@ amigo
 familia
 casa
 trabajo
+tiempo
