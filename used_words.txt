@@ -19,3 +19,4 @@ trabajo
 tiempo
 hoy
 mañana
+ayer
