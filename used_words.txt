@@ -20,3 +20,4 @@ tiempo
 hoy
 mañana
 ayer
+siempre
