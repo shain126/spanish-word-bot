@@ -22,3 +22,4 @@ mañana
 ayer
 siempre
 nunca
+ojalá
