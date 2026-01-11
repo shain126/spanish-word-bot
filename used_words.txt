@@ -21,3 +21,4 @@ hoy
 mañana
 ayer
 siempre
+nunca
