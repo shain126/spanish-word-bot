@@ -26,3 +26,4 @@ ojalá
 claro
 quizás
 ahora
+luego
