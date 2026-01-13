@@ -32,3 +32,4 @@ beber
 vivir
 trabajar
 estudiar
+hablar
