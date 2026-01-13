@@ -31,3 +31,4 @@ comer
 beber
 vivir
 trabajar
+estudiar
