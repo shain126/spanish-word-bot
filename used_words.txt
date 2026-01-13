@@ -30,3 +30,4 @@ luego
 comer
 beber
 vivir
+trabajar
