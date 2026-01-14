@@ -36,3 +36,4 @@ hablar
 escuchar
 ver
 leer
+escribir
