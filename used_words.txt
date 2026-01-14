@@ -34,3 +34,4 @@ trabajar
 estudiar
 hablar
 escuchar
+ver
