@@ -40,3 +40,4 @@ escribir
 comprar
 vender
 pagar
+abrir
