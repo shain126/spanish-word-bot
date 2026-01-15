@@ -38,3 +38,4 @@ ver
 leer
 escribir
 comprar
+vender
