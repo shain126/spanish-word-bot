@@ -37,3 +37,4 @@ escuchar
 ver
 leer
 escribir
+comprar
