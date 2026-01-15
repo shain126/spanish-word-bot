@@ -39,3 +39,4 @@ leer
 escribir
 comprar
 vender
+pagar
