@@ -43,3 +43,4 @@ pagar
 abrir
 cerrar
 grande
+pequeño
