@@ -44,3 +44,4 @@ abrir
 cerrar
 grande
 pequeño
+nuevo
