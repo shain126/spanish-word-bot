@@ -42,3 +42,4 @@ vender
 pagar
 abrir
 cerrar
+grande
