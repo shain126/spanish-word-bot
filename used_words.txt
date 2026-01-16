@@ -41,3 +41,4 @@ comprar
 vender
 pagar
 abrir
+cerrar
