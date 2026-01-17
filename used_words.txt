@@ -47,3 +47,4 @@ pequeño
 nuevo
 viejo
 bueno
+malo
