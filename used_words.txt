@@ -46,3 +46,4 @@ grande
 pequeño
 nuevo
 viejo
+bueno
