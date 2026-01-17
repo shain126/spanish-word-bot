@@ -48,3 +48,4 @@ nuevo
 viejo
 bueno
 malo
+fácil
