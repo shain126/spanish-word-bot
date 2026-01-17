@@ -45,3 +45,4 @@ cerrar
 grande
 pequeño
 nuevo
+viejo
