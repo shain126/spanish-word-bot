@@ -52,3 +52,4 @@ fácil
 difícil
 rápido
 lento
+feliz
