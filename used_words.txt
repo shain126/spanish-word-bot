@@ -50,3 +50,4 @@ bueno
 malo
 fácil
 difícil
+rápido
