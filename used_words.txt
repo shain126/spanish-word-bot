@@ -54,3 +54,4 @@ rápido
 lento
 feliz
 triste
+cansado
