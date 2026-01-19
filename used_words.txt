@@ -53,3 +53,4 @@ difícil
 rápido
 lento
 feliz
+triste
