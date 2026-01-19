@@ -56,3 +56,4 @@ feliz
 triste
 cansado
 contento
+enojado
