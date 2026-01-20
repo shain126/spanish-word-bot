@@ -58,3 +58,4 @@ cansado
 contento
 enojado
 caminar
+correr
