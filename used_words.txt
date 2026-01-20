@@ -57,3 +57,4 @@ triste
 cansado
 contento
 enojado
+caminar
