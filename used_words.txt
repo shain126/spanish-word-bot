@@ -61,3 +61,4 @@ caminar
 correr
 llegar
 salir
+entrar
