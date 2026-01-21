@@ -62,3 +62,4 @@ correr
 llegar
 salir
 entrar
+buscar
