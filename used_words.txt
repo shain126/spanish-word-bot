@@ -64,3 +64,4 @@ salir
 entrar
 buscar
 encontrar
+usar
