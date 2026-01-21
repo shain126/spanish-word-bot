@@ -63,3 +63,4 @@ llegar
 salir
 entrar
 buscar
+encontrar
