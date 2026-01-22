@@ -65,3 +65,4 @@ entrar
 buscar
 encontrar
 usar
+cambiar
