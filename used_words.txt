@@ -67,3 +67,4 @@ encontrar
 usar
 cambiar
 empezar
+terminar
