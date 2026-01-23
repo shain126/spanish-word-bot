@@ -71,3 +71,4 @@ terminar
 ayudar
 necesitar
 intentar
+recordar
