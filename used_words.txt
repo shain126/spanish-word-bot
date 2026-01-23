@@ -72,3 +72,4 @@ ayudar
 necesitar
 intentar
 recordar
+olvidar
