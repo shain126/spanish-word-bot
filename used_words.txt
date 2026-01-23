@@ -69,3 +69,4 @@ cambiar
 empezar
 terminar
 ayudar
+necesitar
