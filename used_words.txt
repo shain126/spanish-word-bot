@@ -70,3 +70,4 @@ empezar
 terminar
 ayudar
 necesitar
+intentar
