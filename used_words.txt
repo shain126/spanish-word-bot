@@ -75,3 +75,4 @@ recordar
 olvidar
 pensar
 creer
+sentir
