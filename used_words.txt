@@ -77,3 +77,4 @@ pensar
 creer
 sentir
 esperar
+preguntar
