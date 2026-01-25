@@ -79,3 +79,4 @@ sentir
 esperar
 preguntar
 responder
+explicar
