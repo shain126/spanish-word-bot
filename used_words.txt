@@ -80,3 +80,4 @@ esperar
 preguntar
 responder
 explicar
+aprender
