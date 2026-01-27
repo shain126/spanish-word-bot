@@ -84,3 +84,4 @@ aprender
 enseñar
 decidir
 elegir
+aceptar
