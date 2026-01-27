@@ -86,3 +86,4 @@ decidir
 elegir
 aceptar
 rechazar
+viajar
