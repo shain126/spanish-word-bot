@@ -85,3 +85,4 @@ enseñar
 decidir
 elegir
 aceptar
+rechazar
