@@ -90,3 +90,4 @@ viajar
 descansar
 disfrutar
 soñar
+lograr
