@@ -103,3 +103,4 @@ superar
 paz
 calma
 fuerza
+valor
