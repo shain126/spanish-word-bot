@@ -101,3 +101,4 @@ confiar
 dudar
 superar
 paz
+calma
