@@ -104,3 +104,4 @@ paz
 calma
 fuerza
 valor
+paciencia
