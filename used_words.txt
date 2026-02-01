@@ -105,3 +105,4 @@ calma
 fuerza
 valor
 paciencia
+libertad
