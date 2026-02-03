@@ -114,3 +114,4 @@ motivar
 inspirar
 intento
 esfuerzo
+resultado
