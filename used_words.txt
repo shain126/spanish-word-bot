@@ -115,3 +115,4 @@ inspirar
 intento
 esfuerzo
 resultado
+decisión
