@@ -116,3 +116,4 @@ intento
 esfuerzo
 resultado
 decisión
+oportunidad
