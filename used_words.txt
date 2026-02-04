@@ -117,3 +117,4 @@ esfuerzo
 resultado
 decisión
 oportunidad
+experiencia
