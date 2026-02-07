@@ -130,3 +130,4 @@ progreso
 equilibrio
 prioridad
 objetivo
+silencio
