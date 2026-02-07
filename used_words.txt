@@ -128,3 +128,4 @@ disciplina
 constancia
 progreso
 equilibrio
+prioridad
