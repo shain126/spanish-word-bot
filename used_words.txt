@@ -129,3 +129,4 @@ constancia
 progreso
 equilibrio
 prioridad
+objetivo
