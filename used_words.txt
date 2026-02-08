@@ -132,3 +132,4 @@ prioridad
 objetivo
 silencio
 atención
+energía
