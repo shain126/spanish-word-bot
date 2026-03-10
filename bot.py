@@ -26,6 +26,8 @@ def main():
     try:
         post = generate_spanish_word_post(used_words)
         word = extract_word(post)
+        if word is None:
+            raise ValueError("Could not extract word from OpenAI response")
         source = "OpenAI"
     except Exception:
         entry = get_next_unused_word(used_words)
