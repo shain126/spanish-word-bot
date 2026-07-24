@@ -30,6 +30,9 @@ def generate_spanish_word_post(used_words: set):
     )
 
     if result.returncode != 0:
-        raise RuntimeError(f"claude CLI failed: {result.stderr.strip()}")
+        raise RuntimeError(
+            f"claude CLI exited {result.returncode}: "
+            f"stderr={result.stderr.strip()!r} stdout={result.stdout.strip()!r}"
+        )
 
     return result.stdout.strip()
