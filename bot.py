@@ -29,15 +29,16 @@ def main():
         if word is None:
             raise ValueError("Could not extract word from Claude response")
         source = "Claude CLI"
-    except Exception:
+    except Exception as e:
+        print(f"Claude generation failed, falling back to local DB: {e}")
         entry = get_next_unused_word(used_words)
         post = format_post(entry)
         word = entry["word"]
         source = "Local DB"
 
+    print(f"Generated '{word}' via {source}")
     post_tweet(post)
     save_used_word(word)
-    print(f"Posted '{word}' via {source}")
 
 if __name__ == "__main__":
     main()
