@@ -1,7 +1,4 @@
-import os
-from openai import OpenAI
-
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+import subprocess
 
 def generate_spanish_word_post(used_words: set):
     banned = ", ".join(sorted(used_words)) if used_words else "none"
@@ -14,7 +11,7 @@ def generate_spanish_word_post(used_words: set):
     - Use a different word than all previous ones
     - Beginner to intermediate level
 
-    Format EXACTLY like this:
+    Output ONLY the post text, nothing else. Format EXACTLY like this:
 
     🇪🇸 Word of the Day: <word>
 
@@ -25,9 +22,14 @@ def generate_spanish_word_post(used_words: set):
     Include hashtags: #Spanish #LearnSpanish
     """
 
-    response = client.responses.create(
-        model="gpt-4.1-mini",
-        input=prompt
+    result = subprocess.run(
+        ["claude", "-p", prompt],
+        capture_output=True,
+        text=True,
+        timeout=120,
     )
 
-    return response.output_text.strip()
+    if result.returncode != 0:
+        raise RuntimeError(f"claude CLI failed: {result.stderr.strip()}")
+
+    return result.stdout.strip()

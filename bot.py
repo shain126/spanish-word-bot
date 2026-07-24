@@ -1,5 +1,5 @@
 from twitter_client import post_tweet
-from openai_client import generate_spanish_word_post
+from claude_client import generate_spanish_word_post
 from local_word_provider import get_next_unused_word, format_post
 import re
 
@@ -27,8 +27,8 @@ def main():
         post = generate_spanish_word_post(used_words)
         word = extract_word(post)
         if word is None:
-            raise ValueError("Could not extract word from OpenAI response")
-        source = "OpenAI"
+            raise ValueError("Could not extract word from Claude response")
+        source = "Claude CLI"
     except Exception:
         entry = get_next_unused_word(used_words)
         post = format_post(entry)
