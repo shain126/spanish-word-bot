@@ -2,12 +2,21 @@ import os
 import time
 import tweepy
 
+def _cred(name: str) -> str:
+    raw = os.getenv(name) or ""
+    cleaned = raw.strip()
+    if len(raw) != len(cleaned):
+        print(f"{name}: len={len(cleaned)} (stripped {len(raw) - len(cleaned)} whitespace char(s))")
+    else:
+        print(f"{name}: len={len(cleaned)}")
+    return cleaned
+
 def post_tweet(text: str, retries: int = 3, delay: int = 10):
     client = tweepy.Client(
-        consumer_key=os.getenv("X_API_KEY"),
-        consumer_secret=os.getenv("X_API_SECRET"),
-        access_token=os.getenv("X_ACCESS_TOKEN"),
-        access_token_secret=os.getenv("X_ACCESS_SECRET")
+        consumer_key=_cred("X_API_KEY"),
+        consumer_secret=_cred("X_API_SECRET"),
+        access_token=_cred("X_ACCESS_TOKEN"),
+        access_token_secret=_cred("X_ACCESS_SECRET")
     )
 
     for attempt in range(1, retries + 1):
