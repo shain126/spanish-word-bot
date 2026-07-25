@@ -19,6 +19,12 @@ def post_tweet(text: str, retries: int = 3, delay: int = 10):
         access_token_secret=_cred("X_ACCESS_SECRET")
     )
 
+    try:
+        me = client.get_me()
+        print(f"Auth OK — posting as @{me.data.username}")
+    except Exception as e:
+        print(f"get_me() probe failed (auth/project issue): {e}")
+
     for attempt in range(1, retries + 1):
         try:
             response = client.create_tweet(text=text)
