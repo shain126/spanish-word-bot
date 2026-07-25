@@ -43,18 +43,14 @@ jobs:
 
       - name: Run bot
         env:
-          X_API_KEY: ${{ secrets.X_API_KEY }}
-          X_API_SECRET: ${{ secrets.X_API_SECRET }}
-          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
-          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: python bot.py
 
-      # Persist used words so they are never repeated
-      - name: Commit used words
+      # Persist the used-words list and the latest post text for manual copy-paste
+      - name: Commit generated post
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add used_words.txt
-          git commit -m "Add used Spanish word" || echo "No changes to commit"
+          git add used_words.txt latest_post.txt
+          git commit -m "Add Spanish word of the day" || echo "No changes to commit"
           git push

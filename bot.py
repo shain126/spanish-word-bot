@@ -1,9 +1,9 @@
-from twitter_client import post_tweet
 from claude_client import generate_spanish_word_post
 from local_word_provider import get_next_unused_word, format_post
 import re
 
 USED_WORDS_FILE = "used_words.txt"
+LATEST_POST_FILE = "latest_post.txt"
 
 def load_used_words():
     try:
@@ -37,7 +37,14 @@ def main():
         source = "Local DB"
 
     print(f"Generated '{word}' via {source}")
-    post_tweet(post)
+
+    with open(LATEST_POST_FILE, "w", encoding="utf-8") as f:
+        f.write(post + "\n")
+
+    print("----- COPY BELOW AND PASTE INTO X -----")
+    print(post)
+    print("---------------------------------------")
+
     save_used_word(word)
 
 if __name__ == "__main__":
